@@ -1,166 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bisesh Rai - Professional Bartender</title>
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixology Master | Professional Bartender</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-  <!-- Dark Mode Toggle -->
-  <button id="darkModeToggle" aria-label="Toggle dark mode">🌙 Dark Mode</button>
-
-  <!-- Header with Navigation -->
-  <header class="main-header">
-    <div class="header-content">
-      <h1>Bisesh Rai</h1>
-      <p class="subtitle">Mixologist | Craft Cocktail Specialist | NYC</p>
-      <nav class="main-nav">
-        <a href="#about">About</a>
-        <a href="#cocktails">Cocktails</a>
-        <a href="#testimonials">Testimonials</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="hero-overlay"></div>
-    <div class="hero-content">
-      <h2>Crafting Liquid Artistry</h2>
-      <p class="tagline">Elevating cocktail experiences with precision and creativity</p>
-      <div class="hero-btns">
-        <a href="#cocktails" class="btn btn-primary">Explore Signature Drinks</a>
-        <a href="#contact" class="btn btn-secondary">Book Your Event</a>
-      </div>
-    </div>
-    <div class="scroll-indicator">
-      <span>Discover More</span>
-      <div class="mouse"></div>
-    </div>
-  </section>
-
-  <!-- About Section -->
-  <section id="about" class="section">
-    <div class="section-container">
-      <h2 class="section-title">About Me</h2>
-      <div class="about-content">
-        <img src="assets/profile.webp" alt="Bisesh behind the bar" class="profile-img">
-        <div class="about-text">
-          <p>With 2+ years of experience in New York's most prestigious bars, I specialize in creating innovative cocktails that blend classic techniques with modern flair.</p>
-          <p>My journey in mixology began at [Bar Name], where I developed a passion for craft cocktails and the art of hospitality. I've since honed my skills in molecular mixology and flavor pairing to create unforgettable drinking experiences.</p>
-          <div class="skills">
-            <span class="skill-tag">Craft Cocktails</span>
-            <span class="skill-tag">Molecular Mixology</span>
-            <span class="skill-tag">Flavor Pairing</span>
-            <span class="skill-tag">Bar Consulting</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Cocktails Section -->
-  <section id="cocktails" class="section">
-    <div class="section-container">
-      <h2 class="section-title">Signature Creations</h2>
-      <div class="filter-buttons">
-        <button class="filter-btn active" data-filter="all">All</button>
-        <button class="filter-btn" data-filter="whiskey">Whiskey</button>
-        <button class="filter-btn" data-filter="gin">Gin</button>
-        <button class="filter-btn" data-filter="vodka">Vodka</button>
-        <button class="filter-btn" data-filter="rum">Rum</button>
-        <button class="filter-btn" data-filter="tequila">Tequila</button>
-      </div>
-      <div class="cocktail-grid" id="cocktailContainer"></div>
-    </div>
-  </section>
-
-  <!-- Testimonials Section -->
-  <section id="testimonials" class="section dark-bg">
-    <div class="section-container">
-      <h2 class="section-title">Client Testimonials</h2>
-      <div class="testimonial-slider">
-        <div class="testimonial active">
-          <div class="testimonial-content">
-            <img src="assets/testimonials/client1.jpg" alt="Sarah" class="client-img">
-            <div class="testimonial-text">
-              <p>"Bisesh's cocktails were the highlight of our wedding reception. His attention to detail and creative flavors left all our guests impressed!"</p>
-              <p class="client-name">— Sarah & Michael, Wedding Clients</p>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <div class="logo">MixMaster</div>
+                <div class="nav-links">
+                    <a href="#about" class="nav-link active">About</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#experience" class="nav-link">Experience</a>
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+                <button id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="testimonial">
-          <div class="testimonial-content">
-            <img src="assets/testimonials/client2.jpg" alt="James" class="client-img">
-            <div class="testimonial-text">
-              <p>"Working with Bisesh for our corporate event was exceptional. His custom cocktail menu perfectly matched our brand and wowed our clients."</p>
-              <p class="client-name">— James, Corporate Event Planner</p>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h1>Hi, I'm <span class="highlight">Alex</span></h1>
+                        <h2>Professional Bartender with 3 Years Experience</h2>
+                        <p>Creating memorable cocktail experiences with precision, creativity, and flair. Specializing in craft cocktails, mixology innovation, and exceptional customer service.</p>
+                        <a href="#contact" class="btn">Get in Touch</a>
+                    </div>
+                    <div class="about-image">
+                        <img src="assets/profile.png" alt="Professional bartender profile picture">
+                    </div>
+                </div>
             </div>
-          </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fas fa-cocktail"></i>
+                        <h3>Craft Cocktails</h3>
+                        <p>Expertise in creating both classic and innovative cocktails with premium ingredients.</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-wine-bottle"></i>
+                        <h3>Spirits Knowledge</h3>
+                        <p>Deep understanding of spirits, liqueurs, and mixers from around the world.</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-users"></i>
+                        <h3>Customer Service</h3>
+                        <p>Creating welcoming atmospheres and memorable experiences for every guest.</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Menu Development</h3>
+                        <p>Designing creative, balanced cocktail menus that tell a story.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title">Work <span class="highlight">Experience</span></h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2021 - Present</div>
+                        <div class="timeline-content">
+                            <h3>Head Mixologist</h3>
+                            <h4>The Crafted Cocktail, New York</h4>
+                            <ul>
+                                <li>Develop seasonal cocktail menus featuring 15+ original creations</li>
+                                <li>Train and mentor junior bartenders in mixology techniques</li>
+                                <li>Increased bar revenue by 30% through innovative cocktail programs</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2019 - 2021</div>
+                        <div class="timeline-content">
+                            <h3>Bartender</h3>
+                            <h4>Spirits & Co., Boston</h4>
+                            <ul>
+                                <li>Managed high-volume service during peak hours</li>
+                                <li>Implemented inventory system reducing waste by 20%</li>
+                                <li>Recognized as "Employee of the Month" three times</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="section">
+            <div class="container">
+                <h2 class="section-title">Client <span class="highlight">Testimonials</span></h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"Alex transformed our bar program with creative cocktails that became customer favorites. His attention to detail and knowledge of spirits is unmatched."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <h4>Sarah Johnson</h4>
+                            <p>Owner, The Crafted Cocktail</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"The best bartender I've worked with! Alex remembers every regular's favorite drink and creates an atmosphere that keeps customers coming back."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <h4>Michael Chen</h4>
+                            <p>Bar Manager, Spirits & Co.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"Alex made our wedding reception unforgettable with custom cocktails that perfectly matched our theme. Guests are still talking about it!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <h4>Emily & David Wilson</h4>
+                            <p>Private Event Clients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <p><i class="fas fa-envelope"></i> alex@mixmaster.com</p>
+                        <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                        <p><i class="fas fa-map-marker-alt"></i> New York, NY</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 MixMaster Bartender Portfolio. All rights reserved.</p>
         </div>
-        <button class="slider-btn prev" aria-label="Previous testimonial"><i class="fas fa-chevron-left"></i></button>
-        <button class="slider-btn next" aria-label="Next testimonial"><i class="fas fa-chevron-right"></i></button>
-      </div>
-    </div>
-  </section>
+    </footer>
 
-  <!-- Contact Section -->
-  <section id="contact" class="section">
-    <div class="section-container">
-      <h2 class="section-title">Book Your Event</h2>
-      <div class="contact-container">
-        <form id="contactForm" class="contact-form">
-          <div class="form-group">
-            <input type="text" id="name" placeholder="Your Name" required>
-          </div>
-          <div class="form-group">
-            <input type="email" id="email" placeholder="Email Address" required>
-          </div>
-          <div class="form-group">
-            <input type="tel" id="phone" placeholder="Phone Number">
-          </div>
-          <div class="form-group">
-            <input type="text" id="event-date" placeholder="Event Date (MM/DD/YYYY)">
-          </div>
-          <div class="form-group">
-            <textarea id="message" placeholder="Event Details (Type, Guests, Special Requests)"></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Send Inquiry</button>
-        </form>
-        <div class="contact-info">
-          <h3>Get In Touch</h3>
-          <p><i class="fas fa-envelope"></i> bisesh@mixology.com</p>
-          <p><i class="fas fa-phone"></i> (555) 123-4567</p>
-          <div class="social-links">
-            <a href="https://instagram.com/Bisesh_mixologist" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
-            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="main-footer">
-    <div class="footer-content">
-      <p>&copy; 2024 Bisesh Rai. All rights reserved.</p>
-      <div class="footer-links">
-        <a href="#about">About</a>
-        <a href="#cocktails">Cocktails</a>
-        <a href="#contact">Contact</a>
-        <a href="#">Privacy Policy</a>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Scroll to Top Button -->
-  <button id="scrollToTopBtn" title="Go to top" aria-label="Scroll to top"><i class="fas fa-arrow-up"></i></button>
-
-  <script src="js/main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
