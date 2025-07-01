@@ -6,7 +6,7 @@
   --bg-color: #ffffff;
   --text-color: #333333;
   --card-bg: #f8f9fa;
-  --hf-color:#0d355d;
+  --hf-color: #0d355d;
 
   --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   --transition: all 0.3s ease;
@@ -164,17 +164,27 @@ nav .container {
 }
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); }
-  40% { transform: translateX(-50%) translateY(-10px); }
-  60% { transform: translateX(-50%) translateY(-5px); }
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  40% {
+    transform: translateX(-50%) translateY(-10px);
+  }
+  60% {
+    transform: translateX(-50%) translateY(-5px);
+  }
 }
 
 /* Responsive Design */
 @media (max-width: 992px) {
- .scroll-indicator {
-  display: none;
-}
+  .scroll-indicator {
+    display: none;
   }
+}
 
 /* Sections */
 .section {
@@ -618,7 +628,7 @@ nav .container {
 }
 
 .form-group textarea {
-  min-height: 150px;
+  min-height: 100px;
   resize: vertical;
 }
 
@@ -701,12 +711,51 @@ footer {
 }
 
 @media (max-width: 768px) {
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-align: center;
+  }
+
   .section-title {
     font-size: 2rem;
   }
 
   .Home-text h1 {
     font-size: 2.5rem;
+  }
+
+.btn-container {
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  gap: 16px; /* Optional: spacing between buttons */
+
+}
+.hero-image img {
+  margin-top: 40px;
+  }
+
+  .skills-grid,
+  .testimonials-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .testimonial-card {
+    padding: 1.5rem;
+  }
+
+  .testimonial-content p {
+    font-size: 0.9rem;
+  }
+
+  .testimonial-author h4 {
+    font-size: 1rem;
+  }
+
+.testimonial-author p
+{
+    text-align: center;
   }
 }
 
