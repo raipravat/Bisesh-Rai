@@ -726,14 +726,13 @@ footer {
     font-size: 2.5rem;
   }
 
-.btn-container {
-  display: flex;
-  justify-content: center; /* Horizontally center */
-  gap: 16px; /* Optional: spacing between buttons */
-
-}
-.hero-image img {
-  margin-top: 40px;
+  .btn-container {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    gap: 16px; /* Optional: spacing between buttons */
+  }
+  .hero-image img {
+    margin-top: 40px;
   }
 
   .skills-grid,
@@ -753,8 +752,7 @@ footer {
     font-size: 1rem;
   }
 
-.testimonial-author p
-{
+  .testimonial-author p {
     text-align: center;
   }
 }
