@@ -123,6 +123,10 @@ nav .container {
   transform: rotate(20deg);
 }
 
+.fa-moon {
+  color: var(--light-color) !important;
+}
+
 .hamburger {
   display: none;
   flex-direction: column;
