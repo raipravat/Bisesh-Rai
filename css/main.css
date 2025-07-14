@@ -123,7 +123,8 @@ nav .container {
   transform: rotate(20deg);
 }
 
-.fa-moon {
+.fa-moon,
+.fa-sun {
   color: var(--light-color) !important;
 }
 
@@ -138,7 +139,7 @@ nav .container {
   display: block;
   width: 25px;
   height: 3px;
-  background-color: var(--text-color);
+  background-color: var(--light-color) !important;
   transition: var(--transition);
 }
 
@@ -648,7 +649,7 @@ footer {
 @media (max-width: 992px) {
   .nav-links {
     position: fixed;
-    top: 70px;
+    top: 140px;
     left: -100%;
     width: 100%;
     height: calc(100vh - 70px);
