@@ -744,10 +744,6 @@ footer {
     gap: 16px;
   }
 
-  .hero-image img {
-    margin-top: 40px;
-  }
-
   .skills-grid,
   .testimonials-grid {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
