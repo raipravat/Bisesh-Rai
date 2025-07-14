@@ -244,6 +244,8 @@ nav .container {
 }
 
 .btn {
+  width: auto;
+  height: auto;
   display: inline-block;
   padding: 0.8rem 1.5rem;
   background-color: var(--primary-color);
@@ -252,6 +254,8 @@ nav .container {
   border-radius: 5px;
   font-weight: 500;
   transition: var(--transition);
+  justify-content: center;
+  align-items: center;
 }
 
 .btn:hover {
@@ -733,9 +737,10 @@ footer {
 
   .btn-container {
     display: flex;
-    justify-content: center; /* Horizontally center */
-    gap: 16px; /* Optional: spacing between buttons */
+    justify-content: center;
+    gap: 16px;
   }
+
   .hero-image img {
     margin-top: 40px;
   }
