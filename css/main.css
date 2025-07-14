@@ -7,7 +7,6 @@
   --text-color: #333333;
   --card-bg: #f8f9fa;
   --hf-color: #0d355d;
-
   --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   --transition: all 0.3s ease;
 }
@@ -537,6 +536,7 @@ nav .container {
   font-size: 1.1rem;
   margin-right: 1rem;
   color: var(--primary-color);
+  text-align: start !important;
 }
 
 .faq-question i {
@@ -661,7 +661,7 @@ footer {
     left: -100%;
     width: 100%;
     height: 100vh;
-    background-color: var(--bg-color);
+    background-color: #1a1a1a;
     flex-direction: column;
     align-items: center;
     gap: 10px;
@@ -714,7 +714,7 @@ footer {
   .timeline-item:nth-child(even) .timeline-date {
     left: 15px;
     right: auto;
-    top: -20px;
+    top: -30px;
   }
 
   .contact-content {
